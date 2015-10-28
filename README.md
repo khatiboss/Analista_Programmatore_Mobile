@@ -1,4 +1,4 @@
 # Analista_Programmatore_Mobile
-Corso CNA
+Questo repositort contiene i Materiali e progetti sulla programmmazione web e mobile
 
 :HTML: :CSS: :JS: :PHP:  
