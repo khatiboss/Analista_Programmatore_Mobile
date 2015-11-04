@@ -2,6 +2,7 @@
    -moz-box-sizing: border-box;
    -webkit-box-sizing: border-box;
    box-sizing: border-box;
+   
 }
 body {
    background-color:#00BFFF;
@@ -69,22 +70,30 @@ aside{
 }
 article{
 	float:left;
+	margin-top:40px;
+	width:1000px;
+	height:300px;
+}
+
+#about{
 	position:relative;
 }
 
 #about p {
-	
+	position:absolute;
 	float:right;
 	margin:10px;
 	padding-right:400px;
-	padding-left:10px;
+	padding-left:300px;
 	padding-bottom:200px;
 	// border:1px dotted #F4FA58;
 		
 }
 #about img{
+	position:fixed;
 	float:left;
-	width:225px;
+	width:200px;
+	padding-left:50px;
 	margin-top:10px;
 	
 }
