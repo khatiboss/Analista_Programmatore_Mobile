@@ -45,84 +45,25 @@ header, article, aside, footer {
 
 header {
    margin-top: 10px;
+   
 }
 
-/*
-@media only screen and (min-width: 36em) {
-   article {
-      width: 67%;
+
+@media only screen and (min-width: 42em) {
+      
+   #sinestra {
+      width: 30%;
       float: left;
       margin-right: 0;
-   }
-   aside {
-      width: 21%;
-      float: right;
-      margin-left: 0;
-   }
-   footer {
-      clear: both;
-   }
-}*/
-
-
-@media only screen and (min-width: 32em) and (max-width: 49em) {
-   #sinestra {
-      width: 50%;
-      float: none;
-      margin-right: 0;
 	  
    }
-   aside {
-      width: 21%;
-      float: right;
-      margin-left: 0;
-	
-	 
-   }
-   #centro {
+   
+    #centro {
 	  
-      width: 50%;
+      width: 30%;
 	  float: left;
-      //clear:both;
-
       margin-right: 0;
-   }
-   
-   footer {
-      clear: both;
-   }
-   
-   
-   @media only screen and (min-width: 50em){
-   #sinestra {
-      width: 50%;
-      float: none;
-      margin-right: 0;
-   }
-   #centro {
-      width: 50%;
-      float: left;
-	  margin-right: 0;
-   }
-   aside {
-      width: 21%;
-      float: right;
-      margin-left: 0;
-   }
-   footer {
-      clear: both;
-   }
-   }  
-   @media only screen and (min-width: 60em){
-      #sinestra {
-      width: 30%;
-      float: left;
-      margin-right: 0;
-   }
-   #centro {
-      width: 30%;
-      float: left;
-	  margin-right: 0;
+	  margin-left: 10px;
    }
    aside {
       width: 21%;
@@ -133,5 +74,46 @@ header {
       clear: both;
    }
 }
+
+@media only screen and (min-width: 36em) and (max-width:42em){
+      
+   #sinestra {
+      width: 50%;
+      float: left;
+      margin-right: 0;
+	  margin-bottom:10px;
+	 
+	  
+   }
+   
+    #centro {
+	  
+      width: 50%;
+	  clear:left;
+      margin-right: 0;
+	  
+	  
+   }
+  
+  
+   aside {
+	  
+      width: 31%;
+	  height:350px;
+	  
+	  top:200;
+	  right:10;
+	  position:absolute;
+	  
+      float: right;
+      margin-left: 0;
+
+   }
+   footer {
+      clear: both;
+   }
+}
+
+
 
 
