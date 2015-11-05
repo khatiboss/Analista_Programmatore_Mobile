@@ -82,8 +82,8 @@ header {
       float: left;
       margin-right: 0;
 	  margin-bottom:10px;
-	 
-	  
+	  margin-left: 30px;
+		
    }
    
     #centro {
@@ -91,29 +91,27 @@ header {
       width: 50%;
 	  clear:left;
       margin-right: 0;
-	  
-	  
+	  margin-left: 30px;
    }
   
   
    aside {
-	  
+	  position:absolute;
+      top:200px;
+	  right:10px;
+	  float: right;
       width: 31%;
 	  height:350px;
 	  
-	  top:200;
-	  right:10;
-	  position:absolute;
-	  
-      float: right;
+	 
       margin-left: 0;
 
    }
+   
    footer {
       clear: both;
    }
 }
-
 
 
 
