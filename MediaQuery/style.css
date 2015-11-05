@@ -32,7 +32,10 @@ li {
    margin-left: 10px;
    padding-left: 10px;
 }
-
+nav li{
+	display:inline;
+	float:right;
+}
 header, article, aside, footer {
    border: 1px solid #111;
 }
@@ -45,7 +48,8 @@ header, article, aside, footer {
 
 header {
    margin-top: 10px;
-   
+   margin-bottom:30px;
+   padding:40px;
 }
 
 
@@ -97,11 +101,11 @@ header {
   
    aside {
 	  position:absolute;
-      top:200px;
+      top:160px;
 	  right:10px;
 	  float: right;
       width: 31%;
-	  height:350px;
+	  height:380px;
 	  
 	 
       margin-left: 0;
@@ -109,6 +113,7 @@ header {
    }
    
    footer {
+	  margin-top:100px; 
       clear: both;
    }
 }
