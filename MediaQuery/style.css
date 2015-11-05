@@ -8,7 +8,10 @@
    -webkit-box-sizing: border-box;
    box-sizing: border-box;
 }
-
+body{
+	color:#F7FE2E;
+	background:#B18904;
+}
 h1 {
    font-size: 2em;
 }
@@ -35,6 +38,7 @@ li {
 nav li{
 	display:inline;
 	float:right;
+	
 }
 header, article, aside, footer {
    border: 1px solid #111;
@@ -75,6 +79,7 @@ header {
       margin-left: 0;
    }
    footer {
+	  margin-top:100px;
       clear: both;
    }
 }
