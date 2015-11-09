@@ -1,1 +1,2 @@
 https://www.webkit.org/blog/1424/css3-gradients/
+http://www.hongkiat.com/blog/responsive-resume/
